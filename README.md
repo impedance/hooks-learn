@@ -1,15 +1,12 @@
 # Установка
 
 1. Установить yarn
-### Linux/Mac
+на Linux/Mac
 ```bash
 $ npm install -g yarn
 ```
-### Windows
+на Windows
 $ ask windows users
-
-
-
 
 2. Клонируем проект
 ```bash
@@ -55,7 +52,7 @@ $ cd rros-personal-cabinet
 $ git checkout master
 $ yarn start
 ```
-если в консоли видим надпись compiled succesfully - все установилось и можно работать
+если в консоли видим надпись compiled succesfully - все успешно запустилось и можно работать
 
 ## особенности проекта
 
