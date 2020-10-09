@@ -48,8 +48,10 @@ $ yarn mock
 $ cd rros-personal-cabinet
 $ git checkout master
 $ yarn start
-```
+
 если в консоли видим надпись compile succesfully - все установилось и можно работать
+```
+
 
 ## особенности проекта
 
