@@ -1,6 +1,6 @@
 # Установка
 
-##1. Установить yarn
+1. Установить yarn
 ### Linux/Mac
 ```bash
 $ npm install -g yarn
@@ -8,31 +8,34 @@ $ npm install -g yarn
 ### Windows
 $ ask windows users
 
-##2. Клонируем проект
+
+
+
+2. Клонируем проект
 ```bash
 $ git clone --recurse-submodules --branch=RROS-2086 git@gitlab.lpr.jet.msk.su:rros/rros-client-workspace.git
 ```
 
-##3. Заходим в корневую папку проекта
+3. Заходим в корневую папку проекта
 ```bash
 $ cd rros-client-workspace 
 ```
 
-##4. Ставим зависимости
+4. Ставим зависимости
 ```bash
 $ yarn 
 
 отрабатывает без ошибок
 ```
 
-##5. Создаем ссылки для пакетов npm
+5. Создаем ссылки для пакетов npm
 ```bash
 $ yarn lerna bootstrap
 
 отрабатывает без ошибок
 ```
 
-##6. Разворачиваем библиотеку компонентов
+6. Разворачиваем библиотеку компонентов
 ```bash
 $ cd packages/rros-ui-lib
 $ yarn build:lib:notest
