@@ -1,7 +1,7 @@
 ## Установка
 
 1. Установить yarn
-# Linux/Mac
+### Linux/Mac
 ```bash
 $ npm install -g yarn
 ```
